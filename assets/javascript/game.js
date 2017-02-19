@@ -1,0 +1,4 @@
+
+
+var = gameCount
+var = playerCount
