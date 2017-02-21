@@ -18,6 +18,10 @@ p {
 
 }
 
+.clearfix {
+    overflow: auto;
+}
+
 .count1 {
 	float: left;
 	margin-left: 20px;
@@ -41,52 +45,6 @@ p {
 
 }
 
-.jewel1 {
-	margin-top: 5px;
-	margin-left: 5px;
-	margin-bottom: 5px;
-	float:left;
-	background-color: #F7F0F0;
-	padding-top: 5px;
-	padding-bottom: 75px;
-	padding-left: 75px;
-	padding-right: 75px;
-
-}
-
-.jewel2 {
-	margin-top: 5px;
-	margin-bottom: 5px;
-	float: left;
-	background-color: #F7F0F0;
-	padding-top: 5px;
-	padding-bottom: 75px;
-	padding-left: 75px;
-	padding-right: 75px;
-}
-
-.jewel3 {
-	margin-top: 5px;
-	margin-bottom: 5px;
-	float: left;
-	background-color: #F7F0F0;
-	padding-top: 5px;
-	padding-bottom: 75px;
-	padding-left: 75px;
-	padding-right: 75px;
-}
-
-.jewel4 {
-	margin-top: 5px;
-	margin-bottom: 5px;
-	margin-right: 5px;
-	float: left;
-	background-color: #F7F0F0;
-	padding-top: 5px;
-	padding-bottom: 75px;
-	padding-left: 75px;
-	padding-right: 75px;
-}
 
 .score1 {
 	clear: left;
@@ -97,8 +55,6 @@ p {
 	background-color: #FF0000;
 	padding-bottom: 10px;
 
-
-
 }
 
 .score2 {
@@ -108,6 +64,5 @@ p {
 	font-weight: bold;
 	background-color: #04FF00;
 	padding-bottom: 100px;
-
 
 }

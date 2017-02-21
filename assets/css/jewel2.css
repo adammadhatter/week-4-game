@@ -1,0 +1,113 @@
+body {
+	background-image: url("http://static5.depositphotos.com/1000486/421/v/950/depositphotos_4216395-Background-from-varicoloured-jewels.jpg");
+
+}
+
+h3 {
+	font-size: 150%;
+	text-align: center;
+	margin-left: 20px;
+	background-color: #F7FF00;
+	width: 250px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+
+}
+
+p {
+	margin-bottom: 1px;
+	margin-left: 20px;
+	margin-right: 75%;
+	font-weight: bold;
+	background-color: #F7FF7B;
+
+}
+
+h4 {
+	margin-right: 0px;
+	margin-left: 0px;
+	width: 250px;
+	padding-bottom: 150px;
+	padding-right: 400%;
+}
+
+img {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.match {
+	margin-left: 20px;
+	margin-right: 1500px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	padding-bottom: 175px;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: #96FBFF;
+}
+
+.count1 {
+	float: left;
+	margin-left: 20px;
+	margin-right: 0px
+	margin-bottom: 5px;
+	font-weight: bold;
+	background-color: #5AFDFF;
+	padding-bottom: 100px;
+	padding-right: 80px;
+
+
+}
+
+.count2 {
+	float: left;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0;
+	font-weight: bold;
+	background-color: #FFAB33;
+	padding-bottom: 104px;
+
+}
+
+.count3 {
+	float: left;
+	padding-left: 0px;
+	padding-right: 50px;
+	margin-left: 0px;
+	margin-top: 15px;
+	padding-top: 40px;
+	padding-bottom: 65px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	font-weight: bold;
+	background-color: #FFAB33;
+	
+}
+
+
+.score1 {
+	clear: left;
+	margin-top: 1px;
+	margin-left: 20px;
+	margin-right: 1375px;
+	font-weight: bold;
+	background-color: #FF0000;
+	padding-bottom: 10px;
+
+}
+
+.score2 {
+	margin-top: 5px;
+	margin-left: 20px;
+	margin-right: 1375px;
+	font-weight: bold;
+	background-color: #04FF00;
+	padding-bottom: 100px;
+
+}
