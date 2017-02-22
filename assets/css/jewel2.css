@@ -9,8 +9,10 @@ h3 {
 	margin-left: 20px;
 	background-color: #F7FF00;
 	width: 250px;
-	padding-top: 25px;
-	padding-bottom: 25px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 1px;
+	margin-top: 5px;
 
 }
 
@@ -19,7 +21,8 @@ p {
 	margin-left: 20px;
 	margin-right: 75%;
 	font-weight: bold;
-	background-color: #F7FF7B;
+	background-color: #FFAB00;
+	margin-top: 3px;
 
 }
 
@@ -40,15 +43,33 @@ img {
     overflow: auto;
 }
 
-.match {
+#match {
+	float: left;
 	margin-left: 20px;
-	margin-right: 1500px;
+	margin-right: 0px;
 	margin-top: 10px;
 	margin-bottom: 5px;
-	padding-bottom: 175px;
+	padding-bottom: 80px;
 	font-weight: bold;
 	font-size: 20px;
 	background-color: #96FBFF;
+	width: 250px;
+}
+
+#winsandloses {
+	float: left;
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 5px;
+	margin-top: 10px;	
+    margin-right: 1300px;
+    padding-bottom: 68px;
+    margin-left: 12px;
+    border-right-width: 50px;
+    padding-right: 110px;
+    background-color: #F85EFF;
+
+
 }
 
 .count1 {
@@ -96,9 +117,11 @@ img {
 	margin-top: 1px;
 	margin-left: 20px;
 	margin-right: 1375px;
+	margin-bottom: 15px;
 	font-weight: bold;
 	background-color: #FF0000;
 	padding-bottom: 10px;
+	font-size: 25px;
 
 }
 
@@ -108,6 +131,7 @@ img {
 	margin-right: 1375px;
 	font-weight: bold;
 	background-color: #04FF00;
-	padding-bottom: 100px;
+	padding-bottom: 60px;
+	font-size: 25px;
 
 }
