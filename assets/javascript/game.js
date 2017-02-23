@@ -45,7 +45,7 @@ for( var i = 0; i < pointsAwarded; i++) {
 
 }
 value1Needed = jewel1Value[Math.floor(Math.random() * jewel1Value.length)];
-document.getElementById( "jewel1" ).onclick = function() { return valueNeeded1
+document.getElementById( "jewel1" ).onclick = addValue() { return valueNeeded1
 };
 console.log(jewel1Value);
 
@@ -58,7 +58,7 @@ for( var i = 0; i < pointsAwarded; i++) {
 
 }
 value1Needed = jewel2Value[Math.floor(Math.random() * jewel2Value.length)];
-document.getElementById( "jewel1" ).onclick = function() { return valueNeeded2
+document.getElementById( "jewel2" ).onclick = addValue() { return valueNeeded2
 };
 console.log(jewel2Value);
 
@@ -70,7 +70,7 @@ for( var i = 0; i < pointsAwarded; i++) {
 
 }
 value1Needed = jewel3Value[Math.floor(Math.random() * jewel3Value.length)];
-document.getElementById( "jewel1" ).onclick = function() { return valueNeeded3
+document.getElementById( "jewel3" ).onclick = addValue() { return valueNeeded3
 };
 console.log(jewel3Value);
 
@@ -82,7 +82,7 @@ for( var i = 0; i < pointsAwarded; i++) {
 
 }
 value1Needed = jewel4Value[Math.floor(Math.random() * jewel4Value.length)];
-document.getElementById( "jewel1" ).onclick = function() { return valueNeeded4
+document.getElementById( "jewel4" ).onclick = addValue() { return valueNeeded4
 };
 console.log(jewel4Value);
 
