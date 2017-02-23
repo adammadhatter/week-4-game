@@ -72,46 +72,6 @@ img {
 
 }
 
-.count1 {
-	float: left;
-	margin-left: 20px;
-	margin-right: 0px
-	margin-bottom: 5px;
-	font-weight: bold;
-	background-color: #5AFDFF;
-	padding-bottom: 100px;
-	padding-right: 80px;
-
-
-}
-
-.count2 {
-	float: left;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-bottom: 0;
-	font-weight: bold;
-	background-color: #FFAB33;
-	padding-bottom: 104px;
-
-}
-
-.count3 {
-	float: left;
-	padding-left: 0px;
-	padding-right: 50px;
-	margin-left: 0px;
-	margin-top: 15px;
-	padding-top: 40px;
-	padding-bottom: 65px;
-	margin-bottom: 0px;
-	margin-right: 0px;
-	font-weight: bold;
-	background-color: #FFAB33;
-	
-}
-
-
 .score1 {
 	clear: left;
 	margin-top: 1px;
