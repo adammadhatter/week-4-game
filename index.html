@@ -1,17 +1,22 @@
 <!DOCTYPE html>
   <head>
-    <link rel="stylesheet" type="text/css" href="css/stylew4g.css">
-    <title>Crystals Collect !!!</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/jewel2.css">
 
+    <title>Crystals Collect !!!</title>
+<style>
+    html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    </style>
 <body>
 
-<body background="http://static5.depositphotos.com/1000486/421/v/950/depositphotos_4216395-Background-from-varicoloured-jewels.jpg"</br>
-
-
 	
-<h3>Crystals Collector !!!</h3>
+<h3>Crystals Collector !</h3>
 
-<h4>You will be given a random number at the start of the<br>
+<p>You will be given a random number at the start of the<br>
 game.<br>  
 <br>
 There are four crystals below.  By clicking on a crystal you<br>
@@ -25,24 +30,38 @@ The value of each crystal is hidden from you until you<br>
 click on it.<br>
 <br>
 Each time when the game starts, the game will change the<br>
-values of each crystal.<h4>
+values of each crystal.</p>
 
-<p>game count</p>
+<div id="match">
+    <h7>Score to match:<br>
+    <font size="10"><span id="chosen-number"></span></h7></font>
+    </div> 
 
-<p2>wins and loses</p2><br>
-
-<p3>j1</p3>
-<p4>j2</p4>
-<p5>j3</p5>
-<p6>j4</p6><br>
-
-<p7>Your total score is:</p7><br>
-
-<p8>player count</p8><br>
-
+<div id="winsandloses">
+    <h8>Wins:</h8><br>
+    <br>
+    <br>
+    <h9>Loses:</h9>
+    </div>
 
 
+<img id="jewel1" src="http://i.ebayimg.com/images/g/rTsAAOSwbqpT5QSX/s-l300.jpg" style="width: 175px; height: 140px;" />
 
+<img id="jewel2" src="http://www.voguefabricsstore.com/images/P/RoundLarge-topaz-1-01.jpg" style="width: 175px; height: 140px;"/>
+
+<img id="jewel3" src="http://i.ebayimg.com/images/g/HIwAAOSwGvhUCL4u/s-l300.jpg" style="width: 175px; height: 140px;"/>
+
+<img id="jewel4" src="http://www.voguefabricsstore.com/images/P/RoundsLarge-Jonquil-1.jpg" style="width: 175px; height: 140px;"/>
+
+
+<div class="score-set">
+	<figure class="score1">Your total games score is:</figure>
+	<figure class="score2">Your current game score:</figure>
+</div>
+
+<script src="assets/javascript/game.js">
+
+</script>
 
 </body>
 </head>
