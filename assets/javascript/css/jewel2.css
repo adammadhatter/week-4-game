@@ -43,6 +43,13 @@ img {
     overflow: auto;
 }
 
+.gems {
+	width: 900px;
+	margin-right: 950px;
+	
+
+}
+
 #match {
 	float: left;
 	margin-left: 20px;
