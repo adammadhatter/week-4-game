@@ -1,21 +1,97 @@
-
-var chosenNumber = 0;
-var numberList = [];
-var numbersNeeded = 1
-var gameWins =0;
-var gameLosses =0;
-var jewelArray = ["jewel1", "jewel2", "jewel3", "jewel4"];
-var jewel1Value = [];
-var jewel2Value = [];
-var jewel3Value = [];
-var jewel4Value = [];
-var valueNeeded1 = 0;
-var valueNeeded2 = 0;
-var valueNeeded3 = 0;
-var valueNeeded4 = 0;
-var playerScore = 0;
-var pointsAwarded = 1;
-
+$( document ).ready(function(){
+  var Random=Math.floor(Math.random()*120+19) 
+   // Selects a random number to be shown at the start of the game 
+   // Number should be should be between 19 - 120 
+   // 
+   $('#randomNumber').text(Random);
+   // Appending random number to the randomNumber id in the html doc 
+   // 
+   var num1= Math.floor(Math.random()*11+1) 
+   var num2= Math.floor(Math.random()*11+1) 
+   var num3= Math.floor(Math.random()*11+1) 
+   var num4= Math.floor(Math.random()*11+1) 
+   // Setting up random numbers for each jewel 
+   // Random number has to be between 1 - 12 
+   //  
+   var userTotal= 0;  
+   var wins= 0; 
+   var losses = 0; 
+   //  Decaring variables for tallies 
+ $('#numberWins').text(wins); 
+ $('#numberLosses').text(losses); 
+ //resets the game 
+ function reset(){ 
+       Random=Math.floor(Math.random()*101+19); 
+       console.log(Random) 
+       $('#randomNumber').text(Random); 
+       num1= Math.floor(Math.random()*11+1); 
+       num2= Math.floor(Math.random()*11+1); 
+       num3= Math.floor(Math.random()*11+1); 
+       num4= Math.floor(Math.random()*11+1); 
+       userTotal= 0; 
+       $('#finalTotal').text(userTotal); 
+       }  
+ //adds the wins to the userTotal 
+ function win(){ 
+   wins++;  
+   $('#numberWins').text(wins); 
+   reset(); 
+ } 
+ //adds the losses to the userTotal 
+ function lose(){ 
+   losses++; 
+   $('#numberLosses').text(losses); 
+   reset() 
+ } 
+ //sets up click for jewels 
+   $('#one').on ('click', function() { 
+     userTotal = userTotal + num1; 
+     console.log("New userTotal= " + userTotal); 
+     $('#finalTotal').text(userTotal);  
+           //sets win/lose conditions 
+         if (userTotal == Random){ 
+           win(); 
+         } 
+         else if ( userTotal > Random){ 
+           lose(); 
+         }    
+   })   
+   $('#two').on ('click', function(){ 
+     userTotal = userTotal + num2; 
+     console.log("New userTotal= " + userTotal); 
+     $('#finalTotal').text(userTotal);  
+         if (userTotal == Random){ 
+           win(); 
+         } 
+         else if ( userTotal > Random){ 
+           lose(); 
+         }  
+   })   
+   $('#three').on ('click', function(){ 
+     userTotal = userTotal + num3; 
+     console.log("New userTotal= " + userTotal); 
+     $('#finalTotal').text(userTotal); 
+ //sets win/lose conditions 
+           if (userTotal == Random){ 
+           win(); 
+         } 
+         else if ( userTotal > Random){ 
+           lose(); 
+         }  
+   })   
+   $('#four').on ('click', function(){ 
+     userTotal = userTotal + num4; 
+     console.log("New userTotal= " + userTotal); 
+     $('#finalTotal').text(userTotal);  
+        
+           if (userTotal == Random){ 
+           win(); 
+         } 
+                  else if ( userTotal > Random){ 
+           lose(); 
+         } 
+   });    
+ });  
 //      pusedo notes:
 
 //	assign computer to randomly choose a number between 1 & 120,
@@ -26,65 +102,12 @@ var pointsAwarded = 1;
  //	make individual jewels a clickable item and assigning them
  //		them a value between 1 & 12
 
-for( var i = 0; i < numbersNeeded; i++) {
-	var num = Math.floor(Math.random() * 120 + 1);
-	numberList.push(num);
-}
-chosenNumber = numberList[Math.floor(Math.random() * numberList.length)];
-document.getElementById("chosen-number").innerHTML = chosenNumber;
-console.log(numberList);
-
 //	make individual jewels a clickable item and assigning them
 //		them a value between 1 & 12
 
 // value for jewel 1
 
-for( var i = 0; i < pointsAwarded; i++) {
-	var num = Math.floor(Math.random() * 12 + 1);
-	jewel1Value.push(num);
 
-}
-value1Needed = jewel1Value[Math.floor(Math.random() * jewel1Value.length)];
-document.getElementById( "jewel1" ).onclick = function () { 
-};
-console.log(jewel1Value);
-
-// value for jewel 2
-
-
-for( var i = 0; i < pointsAwarded; i++) {
-	var num = Math.floor(Math.random() * 12 + 1);
-	jewel2Value.push(num);
-
-}
-value1Needed = jewel2Value[Math.floor(Math.random() * jewel2Value.length)];
-document.getElementById( "jewel2" ).onclick = function () { 
-};
-console.log(jewel2Value);
-
-// value for jewel 3
-
-for( var i = 0; i < pointsAwarded; i++) {
-	var num = Math.floor(Math.random() * 12 + 1);
-	jewel3Value.push(num);
-
-}
-value1Needed = jewel3Value[Math.floor(Math.random() * jewel3Value.length)];
-document.getElementById( "jewel3" ).onclick = function () { 
-};
-console.log(jewel3Value);
-
-// value for jewel 4
-
-for( var i = 0; i < pointsAwarded; i++) {
-	var num = Math.floor(Math.random() * 12 + 1);
-	jewel4Value.push(num);
-
-}
-value1Needed = jewel4Value[Math.floor(Math.random() * jewel4Value.length)];
-document.getElementById( "jewel4" ).onclick = function () { 
-};
-console.log(jewel4Value);
 
  
 

@@ -1,5 +1,3 @@
-
-
 body {
 	background-image: url("http://static5.depositphotos.com/1000486/421/v/950/depositphotos_4216395-Background-from-varicoloured-jewels.jpg");
 
@@ -36,24 +34,9 @@ h4 {
 	padding-right: 400%;
 }
 
-h5 {
-	font-size: 25px;
-}
-
 img {
-	margin-left: 20px;
+	margin-left: 5px;
 	margin-right: 5px;
-}
-
-.gems {
-	float: left;
-    margin-right: 20px;
-	margin-right: 850px;
-	margin-left: 20px;
-	width: 175px;
-	height: 140px;
-	margin-bottom: 5px;
-	margin-top: 5px;
 }
 
 .clearfix {
@@ -65,38 +48,50 @@ img {
 	margin-left: 20px;
 	margin-right: 0px;
 	margin-top: 10px;
-	margin-bottom: 0px;
-	padding-bottom: 100px;
+	margin-bottom: 5px;
+	padding-bottom: 80px;
 	font-weight: bold;
 	font-size: 20px;
 	background-color: #96FBFF;
 	width: 250px;
 }
 
-.winsAndLosses {
+#winsandloses {
 	float: left;
 	font-weight: bold;
 	font-size: 20px;
+	margin-bottom: 5px;
 	margin-top: 10px;	
     margin-right: 1300px;
+    padding-bottom: 68px;
     margin-left: 12px;
     border-right-width: 50px;
-    padding-right: 85px;
+    padding-right: 110px;
     background-color: #F85EFF;
 
 
 }
 
-.userTotal {
+.score1 {
 	clear: left;
-	margin-top: 10px;
+	margin-top: 1px;
 	margin-left: 20px;
 	margin-right: 1375px;
 	margin-bottom: 15px;
 	font-weight: bold;
-	font-size: 5px;
 	background-color: #FF0000;
-	padding-bottom: 15px;
+	padding-bottom: 10px;
+	font-size: 25px;
+
+}
+
+.score2 {
+	margin-top: 5px;
+	margin-left: 20px;
+	margin-right: 1375px;
+	font-weight: bold;
+	background-color: #04FF00;
+	padding-bottom: 60px;
 	font-size: 25px;
 
 }
